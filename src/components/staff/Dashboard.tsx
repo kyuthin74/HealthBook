@@ -3,6 +3,7 @@ import StaffLayout from './StaffLayout';
 import { Calendar, Users, Clock, CheckCircle, TrendingUp, Plus, ChevronDown, ChevronRight, X, ChevronLeft } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { ImageWithFallback } from '../figma/ImageWithFallback';
+import doctorsImage from '../../asserts/doctors.jpg';
 
 interface DashboardProps {
   onLogout: () => void;
@@ -154,9 +155,9 @@ export default function Dashboard({ onLogout }: DashboardProps) {
             </div>
             <div className="hidden md:block">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1587391795437-3b59fca90950?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwZG9jdG9ycyUyMGlsbHVzdHJhdGlvbnxlbnwxfHx8fDE3NjM5ODg3Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src={doctorsImage}
                 alt="Medical staff illustration"
-                className="w-48 h-48 object-contain"
+                className="w-50 h-48 object-contain"
               />
             </div>
           </div>
