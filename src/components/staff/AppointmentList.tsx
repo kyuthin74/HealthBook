@@ -1,4 +1,3 @@
-import React from 'react';
 import { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import StaffLayout from './StaffLayout';
@@ -52,7 +51,7 @@ export default function AppointmentList({ onLogout }: AppointmentListProps) {
                 type="text"
                 placeholder="Search by patient, doctor, or reason..."
                 value={searchTerm}
-                onChange={(e: { target: { value: any; }; }) => setSearchTerm(e.target.value)}
+                onChange={(e) => setSearchTerm(e.target.value)}
                 className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none"
               />
             </div>
