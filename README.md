@@ -1,7 +1,7 @@
 
   # Appointment Booking App
 
-  HealthBook is a Vite + React implementation of the Appointment Booking App Figma concept (https://www.figma.com/design/MpIDdglof0bGxqUMgIa4ch/Appointment-Booking-App). It provides a patient-facing booking flow, self-service appointment management, and a staff dashboard powered by mock data with hooks ready for Supabase integration.
+  HealthBook is a Vite + React implementation of the Appointment Booking App. It provides a patient-facing booking flow, self-service appointment management, and a staff dashboard powered by mock data with hooks ready for Supabase integration.
 
   ## About the app
 
