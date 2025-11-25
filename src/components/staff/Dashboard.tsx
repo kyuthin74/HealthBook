@@ -297,7 +297,7 @@ export default function Dashboard({ onLogout }: DashboardProps) {
           {/* Appointment Requests */}
           <div className="bg-white rounded-2xl p-6">
             <div className="flex items-center justify-between mb-6">
-              <h3 className="text-xl text-gray-900">Appointment Request's</h3>
+              <h3 className="text-xl text-gray-900">Appointment Requests</h3>
               <button 
                 onClick={() => navigate('/staff/appointments')}
                 className="text-sm text-[#2A91C2] hover:text-[#1B5E85]"

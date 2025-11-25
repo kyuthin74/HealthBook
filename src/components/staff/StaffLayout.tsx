@@ -29,7 +29,7 @@ export default function StaffLayout({ children, onLogout }: StaffLayoutProps) {
       <aside className="w-64 bg-white border-r border-gray-200 min-h-screen hidden lg:flex flex-col">
         {/* Logo */}
         <div className="p-6">
-          <h1 className="text-2xl text-[#2A91C2]">Doc-Center</h1>
+          <h1 className="text-2xl text-[#2A91C2]">HealthBook</h1>
         </div>
 
         {/* Navigation */}
